@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Secx security engineering</title>
+  <desc id="desc">A dark technical banner for Secx security engineering projects.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#0b1e2e"/>
+      <stop offset="1" stop-color="#102f3a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#9bd7df" stroke-opacity=".09"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="280" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="280" rx="20" fill="url(#grid)"/>
+  <path d="M0 230C210 170 295 263 488 204s310-90 712-35" fill="none" stroke="url(#accent)" stroke-opacity=".23" stroke-width="2"/>
+  <path d="M0 242C210 182 295 275 488 216s310-90 712-35" fill="none" stroke="url(#accent)" stroke-opacity=".13" stroke-width="1"/>
+  <circle cx="1010" cy="78" r="92" fill="none" stroke="#67e8f9" stroke-opacity=".18"/>
+  <circle cx="1010" cy="78" r="58" fill="none" stroke="#34d399" stroke-opacity=".22"/>
+  <circle cx="1010" cy="78" r="6" fill="#67e8f9"/>
+  <text x="70" y="118" fill="#e6fffb" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="6">SECX</text>
+  <text x="74" y="158" fill="#a7f3d0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" letter-spacing="3">SECURITY ENGINEERING</text>
+  <text x="74" y="204" fill="#b8cbd3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Defensive tooling · supply-chain visibility · network triage</text>
+</svg>

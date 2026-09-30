@@ -1,5 +1,7 @@
 # secx · security engineering
 
+<p align="center"><img src="./assets/secx-banner.svg" alt="Secx security engineering banner" width="100%"></p>
+
 [![Followers](https://img.shields.io/github/followers/Secx1?style=flat&label=Followers)](https://github.com/Secx1?tab=followers)
 [![Total stars](https://img.shields.io/github/stars/Secx1?affiliations=OWNER&style=flat&label=Total%20stars)](https://github.com/Secx1?tab=repositories)
 [![Public repositories](https://img.shields.io/badge/Public%20repositories-see%20GitHub-2ea44f)](https://github.com/Secx1?tab=repositories)
