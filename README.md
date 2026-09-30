@@ -10,6 +10,19 @@ Security-focused tooling for defensive review, supply-chain visibility, and
 network triage. Every project is designed to be read-only by default, safe to
 run on local fixtures, and explicit about authorization and false positives.
 
+## Research areas
+
+The public work is organized around six authorized-use cases:
+
+- **Authorized penetration testing / red teaming** — scoped validation with explicit stop conditions.
+- **Vulnerability research and disclosure** — minimal reproduction, redacted evidence, and coordinated follow-up.
+- **Threat intelligence and malware analysis** — defensive triage of authorized samples and telemetry.
+- **Incident response and analytics** — timeline reconstruction, detection logic, and reviewable evidence.
+- **Security tool development** — small read-only tools with fixtures, tests, and machine-readable output.
+- **CTF / lab / research environments** — synthetic targets and reproducible learning exercises.
+
+The current repositories and blog notes are defensive or lab-oriented examples; they do not claim unauthorized access, real-world findings, or unverified awards.
+
 ## Featured projects
 
 | Project | Focus | Release | Live stars |
