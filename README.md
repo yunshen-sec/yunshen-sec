@@ -19,6 +19,17 @@ run on local fixtures, and explicit about authorization and false positives.
 | [dnswatch](https://github.com/Secx1/dnswatch) | Offline Zeek DNS triage with explainable heuristics | [v0.1.0](https://github.com/Secx1/dnswatch/releases/tag/v0.1.0) | [![Stars](https://img.shields.io/github/stars/Secx1/dnswatch?style=flat)](https://github.com/Secx1/dnswatch/stargazers) |
 | [rebuff](https://github.com/Secx1/rebuff) | Prompt-injection detection research fork | [repository](https://github.com/Secx1/rebuff) | [![Stars](https://img.shields.io/github/stars/Secx1/rebuff?style=flat)](https://github.com/Secx1/rebuff/stargazers) |
 
+## Public references
+
+- [ByteDance SRC public honor board](https://src.bytedance.com/honor) lists a
+  public entry named **Secx** (UID 6530, Timeline Sec): #4 in the 2026 annual
+  list and #4 in the overall list. The links are provided for verification;
+  nickname matches should not be treated as independent identity proof.
+- [Tencent Cloud Developer Community interview](https://cloud.tencent.com/developer/article/2412642),
+  published 2024-04-25, features “Secx” and Timeline Sec. Any ranking, bounty,
+  or CVE details in that article are source-reported claims, not independently
+  verified facts.
+
 ## Activity
 
 GitHub owns the contribution graph and activity counts shown on the [profile
