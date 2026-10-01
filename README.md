@@ -10,7 +10,14 @@ Security-focused tooling for defensive review, supply-chain visibility, and
 network triage. Every project is designed to be read-only by default, safe to
 run on local fixtures, and explicit about authorization and false positives.
 
-## Research areas
+## Project map / research tracks
+
+- headerlint — Authorized penetration testing / red teaming：HTTP 安全头的只读基线验证。
+- lockwatch — Vulnerability research and disclosure / Security tool development：Lockfile 与 OSV 的可审计扫描。
+- dnswatch — Threat intelligence and malware analysis / Incident response and analytics：Zeek DNS 弱信号离线分诊。
+- rebuff — CTF / lab / research environments：提示注入防守研究与实验室示例。
+
+These mappings describe the defensive or lab scope of the repositories; they are not claims of unauthorized access or unverified real-world findings.
 
 The public work is organized around six authorized-use cases:
 
