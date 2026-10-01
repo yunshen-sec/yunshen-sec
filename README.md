@@ -97,6 +97,10 @@ on GitHub rather than treated as independent security credentials.
   independently describes Secx as a Sangfor SRC TOP2 white-hat. These two
   numeric placements are reported-source records, not currently linked to an
   official historical leaderboard page.
+- [360SRC's 2025 year-end board](https://src.360.cn/News/news/id/360) lists
+  **Timeline Sec** at #4 among teams (118 points), and the [December 2025
+  notice](https://src.360.cn/News/news/id/366) lists it at #3 (109 points).
+  These are Timeline Sec team records, not an additional Secx personal rank.
 - [Tencent Cloud Developer Community interview](https://cloud.tencent.com/developer/article/2412642),
   published 2024-04-25, features “Secx” and Timeline Sec. Any ranking, bounty,
   or CVE details in that article are source-reported claims, not independently
