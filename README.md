@@ -56,17 +56,6 @@ The public repositories are organized around the six authorized-use tracks above
 
 This profile does not publish an unverified ranking, award, bounty total, CVE count, or SRC position. Any future ranking or recognition will be listed only with the issuing program, scope, date, and a public evidence link. Repository stars, forks, followers, and contribution counts are platform metrics that change over time; they should be read directly on GitHub rather than treated as independent security credentials.
 
-### CVP application readiness
-
-The public portfolio is organized to document legitimate defensive use cases for Anthropic's Cyber Verification Program (CVP), not to claim enrollment or approval:
-
-- identity and organization: use the real account/workspace and complete the provider's verification;
-- six use cases: scoped testing, vulnerability research/disclosure, threat intelligence/sample analysis, incident response/analytics, security tool development, and CTF/lab research;
-- evidence: read-only tools, synthetic fixtures, tests, JSON/SARIF output, redacted report templates, and explicit stop conditions;
-- boundaries: no unauthorized targets, personal data, tokens, mass exfiltration, ransomware, or unverified findings.
-
-See [Anthropic's official CVP guidance](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet) for the current application path; the companion blog note keeps the checklist in one place. CVP access is provider-issued and organization-bound; this profile does not imply approval.
-
 ## Featured projects
 
 | Project | Focus | Release | Live stars |
