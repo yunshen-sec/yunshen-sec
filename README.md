@@ -82,11 +82,12 @@ on GitHub rather than treated as independent security credentials.
   shows **Secx at #16**, with 804 contribution points and the platform title
   “资深安全研究员”.
 - [Xunlei XLSRC's 2025 annual board](https://security.xunlei.com/thanks?timetype=year&year=2025)
-  shows **Secx at #15**, with one accepted vulnerability and 15 contribution
-  points. Both platform boards are time-scoped records and can change.
+  showed **Secx at #15** at the time of capture, with one accepted vulnerability
+  and 15 contribution points. Platform boards are time-scoped records and can
+  change.
 - [Huazhu SRC's public board](https://sec.huazhu.com/index.php?a=index&c=hall&m=)
-  currently shows **Secx at #116** with 4 contribution points; this is a live
-  board snapshot without a year label.
+  showed **Secx at #116** with 4 contribution points at the time of capture;
+  this is a live board snapshot without a year label.
 - [Baidu BSRC's 2023 annual-awards report](https://shadu.baidu.com/article/1851)
   names **secx** in the “迅捷狙击（年度高分漏洞）” award list. This is an
   award listing, not a numeric overall rank.
