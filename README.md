@@ -39,6 +39,23 @@ The public work is organized around six authorized-use cases:
 
 The current repositories and blog notes are defensive or lab-oriented examples; they do not claim unauthorized access, real-world findings, or unverified awards.
 
+## Project map
+
+The public repositories are organized around the six authorized-use tracks above:
+
+| Track | Public work | Evidence boundary |
+| --- | --- | --- |
+| Authorized penetration testing / red teaming | [headerlint](https://github.com/Secx1/headerlint) — read-only HTTP header baseline checks | Scoped fixtures and documented stop conditions; no production targets |
+| Vulnerability research and disclosure | [lockwatch](https://github.com/Secx1/lockwatch) — lockfile and advisory triage | Reproducible samples, redacted output, and coordinated follow-up guidance |
+| Threat intelligence and malware analysis | [dnswatch](https://github.com/Secx1/dnswatch) — DNS telemetry weak-signal triage | Synthetic/authorized logs only; no claim of malware attribution |
+| Incident response and analytics | [dnswatch](https://github.com/Secx1/dnswatch) — timeline-friendly DNS evidence | Offline analysis and reviewable JSON/table output |
+| Security tool development | [headerlint](https://github.com/Secx1/headerlint), [lockwatch](https://github.com/Secx1/lockwatch), [dnswatch](https://github.com/Secx1/dnswatch) | Small defensive tools with fixtures and tests |
+| CTF / lab / research environment | [rebuff](https://github.com/Secx1/rebuff) — prompt-injection defense lab | Synthetic lab scenarios; not a claim of unauthorized access |
+
+### Public standing and verification
+
+This profile does not publish an unverified ranking, award, bounty total, CVE count, or SRC position. Any future ranking or recognition will be listed only with the issuing program, scope, date, and a public evidence link. Repository stars, forks, followers, and contribution counts are platform metrics that change over time; they should be read directly on GitHub rather than treated as independent security credentials.
+
 ## Featured projects
 
 | Project | Focus | Release | Live stars |
