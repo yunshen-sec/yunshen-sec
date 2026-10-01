@@ -1,25 +1,29 @@
-# secx · security engineering
+# Secx · security engineering
 
 <p align="center"><img src="./assets/secx-banner.svg" alt="Secx security engineering banner" width="100%"></p>
 
-[![Followers](https://img.shields.io/github/followers/Secx1?style=flat&label=Followers)](https://github.com/Secx1?tab=followers)
-[![Total stars](https://img.shields.io/github/stars/Secx1?affiliations=OWNER&style=flat&label=Total%20stars)](https://github.com/Secx1?tab=repositories)
-[![Public repositories](https://img.shields.io/badge/Public%20repositories-see%20GitHub-2ea44f)](https://github.com/Secx1?tab=repositories)
+<p align="center">
+  <a href="https://github.com/Secx1?tab=followers"><img src="https://img.shields.io/github/followers/Secx1?style=for-the-badge&logo=github&label=followers" alt="GitHub followers"></a>
+  <a href="https://github.com/Secx1?tab=repositories"><img src="https://img.shields.io/github/stars/Secx1?affiliations=OWNER&style=for-the-badge&logo=github&label=total%20stars" alt="Total repository stars"></a>
+  <a href="https://github.com/Secx1?tab=repositories"><img src="https://img.shields.io/badge/repositories-public-2ea44f?style=for-the-badge" alt="Public repositories"></a>
+</p>
+
+<p align="center"><strong>Defensive security tooling · reproducible evidence · authorized research</strong></p>
+
+<p align="center">
+  <a href="#featured-projects">Projects</a> ·
+  <a href="#six-research-tracks">Research tracks</a> ·
+  <a href="#public-references">Public references</a> ·
+  <a href="#collaboration">Collaboration</a>
+</p>
+
+<p align="center"><sub>Read-only by default · local fixtures first · explicit authorization boundaries</sub></p>
 
 Security-focused tooling for defensive review, supply-chain visibility, and
 network triage. Every project is designed to be read-only by default, safe to
 run on local fixtures, and explicit about authorization and false positives.
 
-## Project map / research tracks
-
-- headerlint — Authorized penetration testing / red teaming：HTTP 安全头的只读基线验证。
-- lockwatch — Vulnerability research and disclosure / Security tool development：Lockfile 与 OSV 的可审计扫描。
-- dnswatch — Threat intelligence and malware analysis / Incident response and analytics：Zeek DNS 弱信号离线分诊。
-- rebuff — CTF / lab / research environments：提示注入防守研究与实验室示例。
-
-These mappings describe the defensive or lab scope of the repositories; they are not claims of unauthorized access or unverified real-world findings.
-
-## How the projects fit together
+## What this profile is about
 
 The repositories are intentionally small and composable: `headerlint` produces
 an HTTP baseline, `lockwatch` checks dependency evidence, and `dnswatch` adds
@@ -28,7 +32,9 @@ attached to a single authorized assessment record. The profile links to live
 repositories and releases; it does not mirror contribution totals or invent
 activity.
 
-The public work is organized around six authorized-use cases:
+The public work is organized around six authorized-use cases.
+
+## Six research tracks
 
 - **Authorized penetration testing / red teaming** — scoped validation with explicit stop conditions.
 - **Vulnerability research and disclosure** — minimal reproduction, redacted evidence, and coordinated follow-up.
@@ -37,11 +43,11 @@ The public work is organized around six authorized-use cases:
 - **Security tool development** — small read-only tools with fixtures, tests, and machine-readable output.
 - **CTF / lab / research environments** — synthetic targets and reproducible learning exercises.
 
-The current repositories and blog notes are defensive or lab-oriented examples; they do not claim unauthorized access, real-world findings, or unverified awards.
+The repositories and notes are defensive or lab-oriented examples. They describe
+methods, fixtures, and reviewable output rather than unauthorized access or
+unverified real-world findings.
 
 ## Project map
-
-The public repositories are organized around the six authorized-use tracks above:
 
 | Track | Public work | Evidence boundary |
 | --- | --- | --- |
@@ -54,7 +60,10 @@ The public repositories are organized around the six authorized-use tracks above
 
 ### Public standing and verification
 
-This profile does not publish an unverified ranking, award, bounty total, CVE count, or SRC position. Any future ranking or recognition will be listed only with the issuing program, scope, date, and a public evidence link. Repository stars, forks, followers, and contribution counts are platform metrics that change over time; they should be read directly on GitHub rather than treated as independent security credentials.
+Any ranking or recognition shown here is tied to its issuing program, scope, date,
+and public evidence link. Repository stars, forks, followers, and contribution
+counts are platform metrics that change over time; they should be read directly
+on GitHub rather than treated as independent security credentials.
 
 ## Featured projects
 
