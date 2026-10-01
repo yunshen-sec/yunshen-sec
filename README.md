@@ -47,7 +47,7 @@ The public work is organized around six authorized-use cases.
 
 | Track | Public work | Evidence boundary |
 | --- | --- | --- |
-| Authorized penetration testing / red teaming | [headerlint](https://github.com/Secx1/headerlint) — read-only HTTP header baseline checks | Scoped fixtures and documented stop conditions; no production targets |
+| Authorized penetration testing / red teaming | [ssrf-probe](https://github.com/Secx1/ssrf-probe) — authorized SSRF probe toolkit; [headerlint](https://github.com/Secx1/headerlint) — read-only HTTP header baseline checks | Explicit `--authorized` gate, scoped fixtures, and documented stop conditions; no production targets |
 | Vulnerability research and disclosure | [lockwatch](https://github.com/Secx1/lockwatch) — lockfile and advisory triage | Reproducible samples, redacted output, and coordinated follow-up guidance |
 | Threat intelligence and malware analysis | [dnswatch](https://github.com/Secx1/dnswatch) — DNS telemetry weak-signal triage | Synthetic/authorized logs only; no claim of malware attribution |
 | Incident response and analytics | [dnswatch](https://github.com/Secx1/dnswatch) — timeline-friendly DNS evidence | Offline analysis and reviewable JSON/table output |
@@ -68,6 +68,7 @@ on GitHub rather than treated as independent security credentials.
 | [headerlint](https://github.com/Secx1/headerlint) | HTTP security-header auditing with JSON/SARIF output | [v0.1.0](https://github.com/Secx1/headerlint/releases/tag/v0.1.0) | [![Stars](https://img.shields.io/github/stars/Secx1/headerlint?style=flat)](https://github.com/Secx1/headerlint) |
 | [lockwatch](https://github.com/Secx1/lockwatch) | Read-only dependency lockfile scanning with optional OSV lookup | [v0.1.0](https://github.com/Secx1/lockwatch/releases/tag/v0.1.0) | [![Stars](https://img.shields.io/github/stars/Secx1/lockwatch?style=flat)](https://github.com/Secx1/lockwatch) |
 | [dnswatch](https://github.com/Secx1/dnswatch) | Offline Zeek DNS triage with explainable heuristics | [v0.1.0](https://github.com/Secx1/dnswatch/releases/tag/v0.1.0) | [![Stars](https://img.shields.io/github/stars/Secx1/dnswatch?style=flat)](https://github.com/Secx1/dnswatch) |
+| [ssrf-probe](https://github.com/Secx1/ssrf-probe) | Authorized SSRF probes with response analysis and OAST fixtures | [repository](https://github.com/Secx1/ssrf-probe) | [![Stars](https://img.shields.io/github/stars/Secx1/ssrf-probe?style=flat)](https://github.com/Secx1/ssrf-probe) |
 | [rebuff](https://github.com/Secx1/rebuff) | Prompt-injection detection research fork | [repository](https://github.com/Secx1/rebuff) | [![Stars](https://img.shields.io/github/stars/Secx1/rebuff?style=flat)](https://github.com/Secx1/rebuff) |
 
 ## Public references
@@ -77,6 +78,24 @@ on GitHub rather than treated as independent security credentials.
   list and #4 in the overall list. **Secx is my public identity and research
   name; Timeline Sec is the corresponding public profile.** The ranking itself
   should still be read as the issuing page's current record and may change.
+- [Tencent TSRC's April 2026 monthly board](https://security.tencent.com/index.php/thanks?month=4&ranktype=month&vulntype=all&year=2026)
+  shows **Secx at #16**, with 804 contribution points and the platform title
+  “资深安全研究员”.
+- [Xunlei XLSRC's 2025 annual board](https://security.xunlei.com/thanks?timetype=year&year=2025)
+  shows **Secx at #15**, with one accepted vulnerability and 15 contribution
+  points. Both platform boards are time-scoped records and can change.
+- [Huazhu SRC's public board](https://sec.huazhu.com/index.php?a=index&c=hall&m=)
+  currently shows **Secx at #116** with 4 contribution points; this is a live
+  board snapshot without a year label.
+- [Baidu BSRC's 2023 annual-awards report](https://shadu.baidu.com/article/1851)
+  names **secx** in the “迅捷狙击（年度高分漏洞）” award list. This is an
+  award listing, not a numeric overall rank.
+- A [publicly reposted profile](https://cn-sec.com/archives/1782851.html)
+  records Secx as #2 in the 2022 Sangfor SRC annual board and #3 in the 2022
+  Meizu SRC annual board; a [Ping An SRC event profile](https://www.ijiandao.com/2b/baijia/448962.html)
+  independently describes Secx as a Sangfor SRC TOP2 white-hat. These two
+  numeric placements are reported-source records, not currently linked to an
+  official historical leaderboard page.
 - [Tencent Cloud Developer Community interview](https://cloud.tencent.com/developer/article/2412642),
   published 2024-04-25, features “Secx” and Timeline Sec. Any ranking, bounty,
   or CVE details in that article are source-reported claims, not independently
