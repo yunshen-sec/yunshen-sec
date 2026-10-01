@@ -93,6 +93,8 @@ See [Anthropic's official CVP guidance](https://support.claude.com/en/articles/1
 GitHub owns the contribution graph and activity counts shown on the [profile
 overview](https://github.com/Secx1?tab=overview). This page only links
 to those live metrics; it does not mirror or manufacture contribution totals.
+GitHub's public stargazer list is now restricted, so the star badges above link
+to each repository page rather than the `/stargazers` view.
 
 ## Collaboration
 
