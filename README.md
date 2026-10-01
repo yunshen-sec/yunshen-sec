@@ -43,10 +43,6 @@ The public work is organized around six authorized-use cases.
 - **Security tool development** — small read-only tools with fixtures, tests, and machine-readable output.
 - **CTF / lab / research environments** — synthetic targets and reproducible learning exercises.
 
-The repositories and notes are defensive or lab-oriented examples. They describe
-methods, fixtures, and reviewable output rather than unauthorized access or
-unverified real-world findings.
-
 ## Project map
 
 | Track | Public work | Evidence boundary |
@@ -78,9 +74,9 @@ on GitHub rather than treated as independent security credentials.
 
 - [ByteDance SRC public honor board](https://src.bytedance.com/honor) lists a
   public entry named **Secx** (UID 6530, Timeline Sec): #4 in the 2026 annual
-  list and #4 in the overall list. I confirm that this is my public Secx /
-  Timeline Sec identity; the ranking itself should still be read as the
-  issuing page's current record and may change.
+  list and #4 in the overall list. **Secx is my public identity and research
+  name; Timeline Sec is the corresponding public profile.** The ranking itself
+  should still be read as the issuing page's current record and may change.
 - [Tencent Cloud Developer Community interview](https://cloud.tencent.com/developer/article/2412642),
   published 2024-04-25, features “Secx” and Timeline Sec. Any ranking, bounty,
   or CVE details in that article are source-reported claims, not independently
