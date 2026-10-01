@@ -19,6 +19,15 @@ run on local fixtures, and explicit about authorization and false positives.
 
 These mappings describe the defensive or lab scope of the repositories; they are not claims of unauthorized access or unverified real-world findings.
 
+## How the projects fit together
+
+The repositories are intentionally small and composable: `headerlint` produces
+an HTTP baseline, `lockwatch` checks dependency evidence, and `dnswatch` adds
+offline network-triage signals. Their reports can be reviewed independently or
+attached to a single authorized assessment record. The profile links to live
+repositories and releases; it does not mirror contribution totals or invent
+activity.
+
 The public work is organized around six authorized-use cases:
 
 - **Authorized penetration testing / red teaming** — scoped validation with explicit stop conditions.
