@@ -12,6 +12,7 @@
 
 <p align="center">
   <a href="#featured-projects">Projects</a> ·
+  <a href="https://code-workspace.top/">Blog</a> ·
   <a href="#collaboration">Collaboration</a>
 </p>
 
