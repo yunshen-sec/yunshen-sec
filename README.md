@@ -8,21 +8,21 @@
 </p>
 
 <p align="center">
-  <a href="https://code-workspace.top/"><img src="https://img.shields.io/badge/Blog-code--workspace.top-5eead4?style=flat-square&labelColor=2b4a5e" alt="Blog"></a>
+  <a href="https://dearfeifei.com/"><img src="https://img.shields.io/badge/Blog-dearfeifei.com-5eead4?style=flat-square&labelColor=2b4a5e" alt="Blog"></a>
   <a href="https://github.com/yunshen-sec?tab=followers"><img src="https://img.shields.io/github/followers/yunshen-sec?style=flat-square&label=Followers&labelColor=2b4a5e&color=5eead4" alt="Followers"></a>
   <a href="https://github.com/yunshen-sec?tab=repositories"><img src="https://img.shields.io/github/stars/yunshen-sec?affiliations=OWNER&style=flat-square&label=Stars&labelColor=2b4a5e&color=5eead4" alt="Stars"></a>
 </p>
 
 <br>
 
-## 关于 · About
+## 关于
 
 专注 Web 与基础设施的防御性安全研究：HTTP 安全基线、依赖供应链、网络流量排查。
 我写的工具都很小、可以组合使用——默认只读、先在本地样本上跑通，并把授权边界和误报写清楚。
 
 <sub>I build small, composable security tools for HTTP baselines, supply-chain visibility and network triage — read-only by default, tested on local fixtures first, explicit about authorization and false positives.</sub>
 
-## 精选项目 · Projects
+## 精选项目
 
 <table>
   <tr>
@@ -64,11 +64,7 @@
 
 <sub>研究中的 fork · Studying: <a href="https://github.com/yunshen-sec/rebuff">rebuff</a> — LLM prompt-injection detection.</sub>
 
-> [!NOTE]
-> dnswatch / headerlint / lockwatch 默认离线、只读，网络请求均为显式开启的选项。ssrf-probe 会主动发包，仅对明确授权的目标运行，且需要显式 `--authorized` 参数。
-> <sub>dnswatch, headerlint and lockwatch are offline and read-only by default; any network call is opt-in. ssrf-probe actively sends requests and only runs against explicitly authorized targets, gated behind an explicit `--authorized` flag.</sub>
-
-## 工具如何组合 · How the tools fit together
+## 工具如何组合
 
 ```mermaid
 flowchart LR
@@ -83,7 +79,7 @@ flowchart LR
     S[ssrf-probe] -. 授权测试 .-> M
 ```
 
-## 工作原则 · Principles
+## 工作原则
 
 <table>
   <tr>
@@ -93,7 +89,7 @@ flowchart LR
   </tr>
 </table>
 
-## 方向 · Focus
+## 方向
 
 <p>
   <img src="https://img.shields.io/badge/Python-2b4a5e?style=flat-square" alt="Python">
@@ -105,9 +101,9 @@ flowchart LR
   <img src="https://img.shields.io/badge/SARIF-2b4a5e?style=flat-square" alt="SARIF">
 </p>
 
-## 交流 · Contact
+## 交流
 
-欢迎提 Issue 和小而聚焦的 PR；测试请使用合成样本。技术文章见 [code-workspace.top](https://code-workspace.top/)。
+欢迎提 Issue 和小而聚焦的 PR；测试请使用合成样本。技术文章见 [dearfeifei.com](https://dearfeifei.com/)。
 
 <sub>Issues and focused pull requests are welcome — please use synthetic fixtures. See each project's <code>SECURITY.md</code> and <code>CONTRIBUTING.md</code>.</sub>
 
